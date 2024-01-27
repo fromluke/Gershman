@@ -47,7 +47,7 @@ $(window).scroll(function () {
 
 /***** Copy Email to Clipboard *****/
 var copyTrigger = $("#copyToClipboard");
-var copyText = "eric.gershman" + "@" + "gmail.com";
+var copyText = "hello" + "@" + "ericgershmanllc.com";
 
 copyTrigger.click(function (event) {
   navigator.clipboard.writeText(copyText);
