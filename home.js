@@ -22,7 +22,7 @@ loadTl.from(".about-image", { y: "50%" }, "<");
 loadTl.from(
   ".grid-line",
   { y: "20%", stagger: { amount: 5 }, onComplete: loopTl.play() },
-  "<"
+  "<",
 );
 
 /***** Hero Image *****/
@@ -43,7 +43,7 @@ ScrollTrigger.matchMedia({
       imageHeroTL.fromTo(
         targetElement,
         { paddingLeft: "25%", paddingTop: "37rem" },
-        { paddingLeft: "0%", paddingTop: "6rem", duration: 1 }
+        { paddingLeft: "0%", paddingTop: "6rem", duration: 1 },
       );
     });
   },
@@ -97,9 +97,9 @@ bioTrigger.click(function (event) {
 });
 
 /***** Tooltip hover *****/
-$(".affiliate-logo-wrap").hover(function () {
+/*$(".affiliate-logo-wrap").hover(function () {
   $(this).find(".logo-tooltip").toggleClass("hidden");
-});
+});*/
 
 /***** News Slider *****/
 $(".slider-wrap").each(function (index) {
