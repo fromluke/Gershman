@@ -2,7 +2,7 @@ var currentDate = new Date(new Date().getTime());
 var YEAR = currentDate.getFullYear();
 
 $(document).ready(function () {
-  $("#footerYear").text("©" + YEAR + " Eric Gershman, LLC");
+  $("#footerYear").text("©" + YEAR);
 });
 
 gsap.registerPlugin(ScrollTrigger);
